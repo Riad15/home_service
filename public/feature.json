@@ -1,0 +1,26 @@
+[
+    {
+        "title": "UpFront Pricing",
+        "about": "No surprises and no hidden fees.you always know what's included in the service package you'r paying for.",
+        "id": 101,
+        "icon": "./images/taka .jpg"
+    },
+    {
+        "title": "Handpicked Pros",
+        "about": "All our service providers are required to possess the necessary skills and qualifications to complete your service order to your satisfaction.",
+        "id": 102,
+        "icon": "./images/skills.png"
+    },
+    {
+        "title": "Easy Scheduling",
+        "about": "Select time that Works for you and We'll take of everything else.",
+        "id": 103,
+        "icon": "./images/calender.png"
+    },
+    {
+        "title": "Happiness Guarantee",
+        "about": "When you purchases an the quality of the service performed is guaranteed under the happiness guarantee.",
+        "id": 104,
+        "icon": "./images/happyness.png"
+    }
+]

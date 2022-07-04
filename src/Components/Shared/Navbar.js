@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/images/home-service-icon.jpg'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -12,10 +13,10 @@ const Navbar = () => {
                         <span className="ml-3 text-sky-600  text-2xl">Home Service</span>
                     </a>
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                        <a className="mr-5 px-2 rounded-md  cursor-pointer hover:bg-sky-400 hover:text-white">Home</a>
-                        <a className="mr-5 px-2 rounded-md  cursor-pointer hover:bg-sky-400 hover:text-white">Services</a>
-                        <a className="mr-5 px-2 rounded-md  cursor-pointer hover:bg-sky-400 hover:text-white">about us</a>
-                        <a className="mr-5 px-2 rounded-md  cursor-pointer hover:bg-sky-400 hover:text-white">Log-In</a>
+                        <Link to="/"><a className="mr-5 px-2 rounded-md  cursor-pointer hover:bg-sky-400 hover:text-white">Home</a></Link>
+                        <Link to="/services"> <a className="mr-5 px-2 rounded-md  cursor-pointer hover:bg-sky-400 hover:text-white">Services</a></Link>
+                        <Link to="/about"> <a className="mr-5 px-2 rounded-md  cursor-pointer hover:bg-sky-400 hover:text-white">about us</a></Link>
+                        <Link to="/login"><a className="mr-5 px-2 rounded-md  cursor-pointer hover:bg-sky-400 hover:text-white">Log-In</a></Link>
                     </nav>
                     <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-sky-400 hover:text-white rounded text-base mt-4 md:mt-0">Work With Us
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
