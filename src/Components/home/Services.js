@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import UseServices from '../../customHooks/UseServices';
 import ServiceCard from './ServiceCard';
 
 
 const Services = () => {
     const [services] = UseServices();
+    const service = services.slice(0, 3);
     return (
         <div>
             <div>
@@ -14,12 +16,15 @@ const Services = () => {
 
             <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
                 {
-                    services.map(data =>
+                    service.map(data =>
                         <ServiceCard
                             key={data._id}
                             data={data}
                         ></ServiceCard>)
                 }
+            </div>
+            <div className='flex justify-center my-5'>
+                <Link to="/services"><button class="btn btn-info">more services</button></Link>
             </div>
         </div>
     );

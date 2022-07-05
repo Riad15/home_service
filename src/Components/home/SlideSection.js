@@ -3,7 +3,7 @@ import React from 'react';
 const SlideSection = () => {
     return (
         <div>
-            <div class="hero min-h-screen bg-sky-200">
+            <div class="hero min-h-screen bg-sky-300">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     <img src="https://placeimg.com/260/400/arch" class="rounded-lg shadow-2xl" />
                     <div>

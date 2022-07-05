@@ -1,7 +1,11 @@
 import React from 'react';
 
 const ServiceCard = (props) => {
-    const { service_name, service_pic, service_charge } = props.data;
+    const { _id, service_name, service_pic, service_charge } = props.data;
+    const details = (id) => {
+        console.log("product id :", id);
+
+    }
     return (
         <div>
             <div class="card my-3 w-72 bg-blue-300 shadow-xl mx-auto">
@@ -12,7 +16,7 @@ const ServiceCard = (props) => {
                     <h2 class="card-title text-black">{service_name}</h2>
                     <p className='text-black'>charge: {service_charge}</p>
                     <div class="card-actions justify-end">
-                        <button class="btn font-bold bg-blue-400 text-gray-700 hover:bg-blue-200 border-none"> more details</button>
+                        <button onClick={() => details(_id)} class="btn font-bold bg-blue-400 text-gray-700 hover:bg-blue-200 border-none"> more details</button>
                     </div>
                 </div>
             </div>
