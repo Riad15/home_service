@@ -1,9 +1,11 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
 const ServiceCard = (props) => {
     const { _id, service_name, service_pic, service_charge } = props.data;
+    const navigate = useNavigate();
     const details = (id) => {
-        console.log("product id :", id);
+        navigate(`/services/${id}`)
 
     }
     return (

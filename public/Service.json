@@ -10,6 +10,7 @@
     {
         "_id": 1002,
         "service_name": "Electricity Home Service",
+        "about_service": "We have a big AC Service expert technicians team. AC Servicing BD is a leading one stop solution for your AC and AC installation repair, rent, and other relevant ac services",
         "service_pic": "./images/electricity.png",
         "service_charge": "1000 Tk",
         "Rating": ""
@@ -17,6 +18,7 @@
     {
         "_id": 1003,
         "service_name": "Cooking Home Service",
+        "about_service": "We have a big AC Service expert technicians team. AC Servicing BD is a leading one stop solution for your AC and AC installation repair, rent, and other relevant ac services",
         "service_pic": "./images/cooking-service.png",
         "service_charge": "520 Tk",
         "Rating": ""
@@ -24,6 +26,7 @@
     {
         "_id": 1004,
         "service_name": "Ac Preparing",
+        "about_service": "We have a big AC Service expert technicians team. AC Servicing BD is a leading one stop solution for your AC and AC installation repair, rent, and other relevant ac services",
         "service_pic": "./images/refiregrator.png",
         "service_charge": "1500 Tk",
         "Rating": ""
@@ -31,6 +34,7 @@
     {
         "_id": 1005,
         "service_name": "Home Cleaner",
+        "about_service": "We have a big AC Service expert technicians team. AC Servicing BD is a leading one stop solution for your AC and AC installation repair, rent, and other relevant ac services",
         "service_pic": "./images/home_cleaner.png",
         "service_charge": "120Tk",
         "Rating": ""
@@ -38,6 +42,7 @@
     {
         "_id": 1006,
         "service_name": "Doctor Service",
+        "about_service": "We have a big AC Service expert technicians team. AC Servicing BD is a leading one stop solution for your AC and AC installation repair, rent, and other relevant ac services",
         "service_pic": "./images/doctor.png",
         "service_charge": "1200 Tk",
         "Rating": ""

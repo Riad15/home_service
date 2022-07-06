@@ -1,7 +1,30 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import App from '../../App';
+import auth from '../../firebase.init';
+import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import loading from "../../assets/images/loading.gif"
+
 
 const SignUp = () => {
+    const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
+    if (error) {
+        return (
+            <div>
+                <p>Error: {error.message}</p>
+            </div>
+        );
+    }
+    if (loading) {
+        return <img className='mx-auto' src={loading} alt="" />
+    }
+    if (user) {
+        return (
+            <div>
+                <p>Signed In User: {user.email}</p>
+            </div>
+        );
+    }
     return (
         <div className="relative flex flex-col justify-center min-h-screen overflow-hidden">
             <div className="w-full p-6 m-auto bg-white rounded-md shadow-xl lg:max-w-xl">
@@ -56,10 +79,7 @@ const SignUp = () => {
                     <div className="absolute px-5 bg-white">Or</div>
                 </div>
                 <div className="flex mt-4 gap-x-2">
-                    <button
-                        type="button"
-                        className="flex items-center justify-center w-full p-2 border border-gray-600 rounded-md focus:ring-2 focus:ring-offset-1 focus:ring-sky-600"
-                    >
+                    <button onClick={() => signInWithGoogle()} type="button" className="flex items-center justify-center w-full p-2 border border-gray-600 rounded-md focus:ring-2 focus:ring-offset-1 focus:ring-sky-600">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 32 32"

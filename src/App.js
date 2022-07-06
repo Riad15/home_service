@@ -7,6 +7,7 @@ import Login from './Components/Aunthication/Login';
 import Navbar from './Components/Shared/Navbar';
 import SignUp from './Components/Aunthication/SignUp';
 import Services from './Components/services/Services';
+import Service from './Components/services/Service';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/signUp' element={<SignUp></SignUp>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
+        <Route path='/services/:id' element={<Service></Service>}></Route>
       </Routes>
     </div>
   );
