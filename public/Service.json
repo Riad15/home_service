@@ -1,11 +1,45 @@
 [
     {
         "_id": 1001,
-        "service_name": "Ac Preparing ",
+        "service_name": "Ac Reparing ",
         "about_service": "We have a big AC Service expert technicians team. AC Servicing BD is a leading one stop solution for your AC and AC installation repair, rent, and other relevant ac services",
         "service_pic": "./images/ac.png",
         "service_charge": "520 Tk",
-        "Rating": ""
+        "Rating": "",
+        "Workers": [
+            {
+                "name": "Mr.kasem",
+                "w_img": "./images/worker.png",
+                "area": "bonani",
+                "age": 25,
+                "experience": 2,
+                "gender": "male"
+            },
+            {
+                "name": "rubel",
+                "w_img": "./images/worker.png",
+                "area": "uttor-badda",
+                "age": 20,
+                "experience": 1,
+                "gender": "male"
+            },
+            {
+                "name": "shihab",
+                "w_img": "./images/worker.png",
+                "area": "Dhanmondi-32",
+                "age": 29,
+                "experience": 3,
+                "gender": "male"
+            },
+            {
+                "name": "shakib",
+                "w_img": "./images/worker.png",
+                "area": "bonani",
+                "age": 23,
+                "experience": 4,
+                "gender": "male"
+            }
+        ]
     },
     {
         "_id": 1002,
@@ -13,7 +47,45 @@
         "about_service": "We have a big AC Service expert technicians team. AC Servicing BD is a leading one stop solution for your AC and AC installation repair, rent, and other relevant ac services",
         "service_pic": "./images/electricity.png",
         "service_charge": "1000 Tk",
-        "Rating": ""
+        "Rating": "",
+        "Workers": [
+            {
+                "_id": 1201,
+                "name": "Mr.kasem",
+                "w_img": "./images/worker.png",
+                "area": "bonani",
+                "age": 25,
+                "experience": 2,
+                "gender": "male"
+            },
+            {
+                "_id": 1202,
+                "name": "rubel",
+                "w_img": "./images/worker.png",
+                "area": "uttor-badda",
+                "age": 20,
+                "experience": 1,
+                "gender": "male"
+            },
+            {
+                "_id": 1203,
+                "name": "shihab",
+                "w_img": "./images/worker.png",
+                "area": "Dhanmondi-32",
+                "age": 29,
+                "experience": 3,
+                "gender": "male"
+            },
+            {
+                "_id": 1204,
+                "name": "shakib",
+                "w_img": "./images/worker.png",
+                "area": "bonani",
+                "age": 23,
+                "experience": 4,
+                "gender": "male"
+            }
+        ]
     },
     {
         "_id": 1003,
@@ -21,15 +93,45 @@
         "about_service": "We have a big AC Service expert technicians team. AC Servicing BD is a leading one stop solution for your AC and AC installation repair, rent, and other relevant ac services",
         "service_pic": "./images/cooking-service.png",
         "service_charge": "520 Tk",
-        "Rating": ""
-    },
-    {
-        "_id": 1004,
-        "service_name": "Ac Preparing",
-        "about_service": "We have a big AC Service expert technicians team. AC Servicing BD is a leading one stop solution for your AC and AC installation repair, rent, and other relevant ac services",
-        "service_pic": "./images/refiregrator.png",
-        "service_charge": "1500 Tk",
-        "Rating": ""
+        "Rating": "",
+        "Workers": [
+            {
+                "_id": 2501,
+                "name": "Mr.kasem",
+                "w_img": "./images/worker.png",
+                "area": "bonani",
+                "age": 25,
+                "experience": 2,
+                "gender": "male"
+            },
+            {
+                "_id": 2502,
+                "name": "rubel",
+                "w_img": "./images/worker.png",
+                "area": "uttor-badda",
+                "age": 20,
+                "experience": 1,
+                "gender": "male"
+            },
+            {
+                "_id": 2503,
+                "name": "shihab",
+                "w_img": "./images/worker.png",
+                "area": "Dhanmondi-32",
+                "age": 29,
+                "experience": 3,
+                "gender": "male"
+            },
+            {
+                "_id": 2504,
+                "name": "shakib",
+                "w_img": "./images/worker.png",
+                "area": "bonani",
+                "age": 23,
+                "experience": 4,
+                "gender": "male"
+            }
+        ]
     },
     {
         "_id": 1005,
@@ -37,7 +139,45 @@
         "about_service": "We have a big AC Service expert technicians team. AC Servicing BD is a leading one stop solution for your AC and AC installation repair, rent, and other relevant ac services",
         "service_pic": "./images/home_cleaner.png",
         "service_charge": "120Tk",
-        "Rating": ""
+        "Rating": "",
+        "Workers": [
+            {
+                "_id": 2001,
+                "name": "Mr.kasem",
+                "w_img": "./images/worker.png",
+                "area": "bonani",
+                "age": 25,
+                "experience": 2,
+                "gender": "male"
+            },
+            {
+                "_id": 2002,
+                "name": "rubel",
+                "w_img": "./images/worker.png",
+                "area": "uttor-badda",
+                "age": 20,
+                "experience": 1,
+                "gender": "male"
+            },
+            {
+                "_id": 2003,
+                "name": "shihab",
+                "w_img": "./images/worker.png",
+                "area": "Dhanmondi-32",
+                "age": 29,
+                "experience": 3,
+                "gender": "male"
+            },
+            {
+                "_id": 2004,
+                "name": "shakib",
+                "w_img": "./images/worker.png",
+                "area": "bonani",
+                "age": 23,
+                "experience": 4,
+                "gender": "male"
+            }
+        ]
     },
     {
         "_id": 1006,
@@ -45,6 +185,44 @@
         "about_service": "We have a big AC Service expert technicians team. AC Servicing BD is a leading one stop solution for your AC and AC installation repair, rent, and other relevant ac services",
         "service_pic": "./images/doctor.png",
         "service_charge": "1200 Tk",
-        "Rating": ""
+        "Rating": "",
+        "Workers": [
+            {
+                "_id": 1001,
+                "name": "Mr.kasem",
+                "w_img": "./images/worker.png",
+                "area": "bonani",
+                "age": 25,
+                "experience": 2,
+                "gender": "male"
+            },
+            {
+                "_id": 1002,
+                "name": "rubel",
+                "w_img": "./images/worker.png",
+                "area": "uttor-badda",
+                "age": 20,
+                "experience": 1,
+                "gender": "male"
+            },
+            {
+                "_id": 1003,
+                "name": "shihab",
+                "w_img": "./images/worker.png",
+                "area": "Dhanmondi-32",
+                "age": 29,
+                "experience": 3,
+                "gender": "male"
+            },
+            {
+                "_id": 1004,
+                "name": "shakib",
+                "w_img": "./images/worker.png",
+                "area": "bonani",
+                "age": 23,
+                "experience": 4,
+                "gender": "male"
+            }
+        ]
     }
 ]

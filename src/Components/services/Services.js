@@ -5,6 +5,11 @@ import Footer from '../Shared/Footer';
 
 const Services = () => {
     const [services] = UseServices();
+    services.map(data => {
+        data.Workers.map(a => {
+            console.log(a.name);
+        })
+    })
     return (
         <div>
             <div>

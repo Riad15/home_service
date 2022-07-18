@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
-import App from '../../App';
 import auth from '../../firebase.init';
 import { useCreateUserWithEmailAndPassword, useSignInWithGoogle, useUpdateProfile } from 'react-firebase-hooks/auth';
 import loadingPic from "../../assets/images/loading.gif"
